@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Looking for M3U Files"
+if [ "$1" != "" ]; then
+ echo "Changing Directory: $1"
+ cd "$1"
+fi
+find . -iname "*.m3u" -type f
+
