@@ -9,4 +9,4 @@ Usage:
 
     ./bin/report_m3u /Path/to/Music  
 
-To delee them switch to using the remove_m3u script.
+To delete them switch to using the `remove_m3u` script.
